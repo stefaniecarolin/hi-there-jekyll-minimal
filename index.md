@@ -27,8 +27,8 @@ This book has a different flavor than the first. Think of its chapters as a gall
     <div class="name">Mark Schutera</div>
     <div class="job-description">Author</div>
     <div class="social-icons">
-      <a href="www.linkedin.com/in/schuteramark" target="_blank"><img src="./assets/icons/linkedin-app-icon.png" alt="LinkedIn"></a>
-      <a href="https://example.com/twitter" target="_blank"><img src="./assets/icons/mail-open-icon.png" alt="Mail"></a>
+      <a href="https://linkedin.com/in/schuteramark" target="_blank"><img src="./assets/icons/linkedin-app-icon.png" alt="LinkedIn"></a>
+      <a href="mailto:neuralcoffeetable@gmail.com" target="_blank"><img src="./assets/icons/mail-open-icon.png" alt="Mail"></a>
     </div>
   </div>
 
@@ -41,14 +41,15 @@ This book has a different flavor than the first. Think of its chapters as a gall
     <div class="name">Stefanie Schutera</div>
     <div class="job-description">Editor and Illustrator</div>
     <div class="social-icons">
-      <a href="www.linkedin.com/in/stefanie-schutera" target="_blank"><img src="./assets/icons/linkedin-app-icon.png" alt="LinkedIn"></a>
-      <a href="https://example.com/twitter" target="_blank"><img src="./assets/icons/mail-open-icon.png" alt="Mail"></a>
+      <a href="https://linkedin.com/in/stefanie-schutera" target="_blank"><img src="./assets/icons/linkedin-app-icon.png" alt="LinkedIn"></a>
+      <a href="mailto:neuralcoffeetable@gmail.com" target="_blank"><img src="./assets/icons/mail-open-icon.png" alt="Mail"></a>
     </div>
   </div>
 </div>
 
-You missed the first volume? Don't worry. It's still available. <br> [COFFEE TABLE SOLUTIONS NO. 1: Why does my Neural Network not learn?](https://www.amazon.de/Why-does-Neural-Network-learn-ebook/dp/B09QRGWWZP){:target="\_blank"}.
+You missed the first volume? Don't worry. It's still available. <br> [COFFEE TABLE SOLUTIONS NO. 1: Why does my Neural Network not learn?](https://www.amazon.de/Why-does-Neural-Network-learn-ebook/dp/B09QRGWWZP){:target="\_blank"}
 
 ---
 
-© 2024 All rights reserved. Schutera.
+© 2024 - All rights reserved. Stefanie Schutera.<br>
+[Impressum & Privacy Policy](./impressum-and-privacy-policy.html){:target="\_blank"}
