@@ -122,23 +122,27 @@ header {
   width:270px;
   float:left;
   position:fixed;
+  margin-bottom: 30px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
 /* Button-Stil */
 button.sale {
-  display: inline-block;
+  text-align: center;
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 700;
-  text-align: center;
   text-decoration: none;
   cursor: pointer;
   border: 1px solid #bf9900;
   border-radius: 4px;
-  color: white;
   background-color: #D4AA00;
   transition: background-color 0.3s ease;
+  margin: 10px;
+  width: 250px;
+  a {
+    color: white;
+  }
 }
 
 /* Hover-Effekt */
@@ -307,4 +311,72 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+// --------------------------------------
+
+/* Container style */
+.container-author {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Avatar style */
+.avatar {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Text container style */
+.text-container {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+/* Name and job description style */
+.name {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.job-description {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Social icons style */
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 5px 3px;
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 20px; /* Adjust the size of social icons */
+  height: 20px;
+  opacity: 0.7;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2); /* Adjust the scale factor for the desired hover effect */
 }
