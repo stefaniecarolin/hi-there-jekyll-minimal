@@ -405,6 +405,10 @@ img {
   max-width: 100%;
 }
 
+.logo {
+  width: 270px;
+}
+
 kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
@@ -421,10 +425,22 @@ kbd {
 
 header {
   width: 270px;
-  float: left;
-  position: static;
-  margin-bottom: 50px;
+  position: fixed;
+  overflow: auto;
+  padding: 0px 0px 48px 0px;
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.title {
+  text-align: center;
+}
+
+.space-below {
+  margin: 0px 0px 36px 0px;
+}
+
+.space-above {
+  margin: 36px 0px 0px 0px;
 }
 
 /* Button-Stil */
@@ -549,30 +565,16 @@ footer {
     width: auto;
     -webkit-font-smoothing: subpixel-antialiased;
   }
-  /* header {
-    padding-right:320px;
-  } */
   section {
     border: 1px solid #e5e5e5;
     border-width: 1px 0;
     padding: 20px 0;
     margin: 0 0 20px;
   }
-  /* header a small {
-    display:inline;
-  } */
-  /* header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }*/
 }
 @media print, screen and (max-width: 600px) {
   body {
     word-wrap: break-word;
-  }
-  header {
-    padding: 0;
   }
   header ul, header p.view {
     position: static;
