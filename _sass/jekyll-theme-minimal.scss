@@ -127,12 +127,7 @@ kbd {
 header {
   width:270px;
   position: fixed;
-  // height: 100%;
-  // height: 100vh;
   overflow: auto;
-  // float:left;
-  // position: static;
-  padding:  0px  0px 48px 0px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -269,6 +264,7 @@ footer {
     float:none;
     position:static;
     width:auto;
+    padding:  0px  0px 60px 0px;
     -webkit-font-smoothing:subpixel-antialiased;
   }
 
@@ -277,10 +273,6 @@ footer {
 @media print, screen and (max-width: 600px) {
   body {
     word-wrap:break-word;
-  }
-
-  header ul, header p.view {
-    position:static;
   }
 
   pre, code {

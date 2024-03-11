@@ -429,7 +429,6 @@ header {
   width: 270px;
   position: fixed;
   overflow: auto;
-  padding: 0px 0px 48px 0px;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -564,15 +563,13 @@ footer {
     float: none;
     position: static;
     width: auto;
+    padding: 0px 0px 60px 0px;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 }
 @media print, screen and (max-width: 600px) {
   body {
     word-wrap: break-word;
-  }
-  header ul, header p.view {
-    position: static;
   }
   pre, code {
     word-wrap: normal;
