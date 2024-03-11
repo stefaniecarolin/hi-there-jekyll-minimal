@@ -105,7 +105,9 @@ img {
 }
 
 .logo {
-  width:270px;
+  width:266px;
+  border: 2px solid #bf9900;
+  border-radius: 4px;
 }
 
 kbd {
@@ -154,7 +156,7 @@ button.sale {
   font-weight: 700;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #bf9900;
+  border: 2px solid #bf9900;
   border-radius: 4px;
   background-color: #D4AA00;
   transition: background-color 0.3s ease;
@@ -331,6 +333,7 @@ footer {
 .avatar {
   width: 50px; /* Adjust the size as needed */
   height: 50px;
+  border: 2px solid #bf9900;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 20px;
