@@ -462,6 +462,9 @@ button.sale {
 button.sale a {
   color: white;
 }
+button.sale a img {
+  color: white;
+}
 
 /* Hover-Effekt */
 button.sale:hover {
@@ -646,7 +649,7 @@ footer {
 
 .social-icons a {
   display: inline-block;
-  margin: 5px 3px;
+  margin: 0px 3px;
   text-decoration: none;
 }
 

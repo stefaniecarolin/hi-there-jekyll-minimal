@@ -159,7 +159,10 @@ button.sale {
   width: 250px;
   a {
     color: white;
-  }
+    img  {
+      color: white;
+    }
+    }
 }
 
 /* Hover-Effekt */
@@ -357,7 +360,7 @@ footer {
 
 .social-icons a {
   display: inline-block;
-  margin: 5px 3px;
+  margin: 0px 3px;
   text-decoration: none;
 }
 
