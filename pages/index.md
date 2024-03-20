@@ -18,8 +18,8 @@ layout: default
     <div class="job-description">Web Development & UX Design</div>
     <div class="job-description">Illustrations, e.g. for technical articles</div>
     <div class="social-icons-container">
-      <a href="https://linkedin.com/in/stefanie-schutera" target="_blank"><img src="./assets/icons/linkedin-app-icon.png" alt="LinkedIn"></a>
-      <a href="mailto:hellomyfriend@mailbox.org" target="_blank"><img src="./assets/icons/mail-open-icon.png" alt="Mail"></a>
+      <a href="https://linkedin.com/in/stefanie-schutera" target="_blank"><img src="../assets/icons/linkedin-app-icon.png" alt="LinkedIn"></a>
+      <a href="mailto:hellomyfriend@mailbox.org" target="_blank"><img src="../assets/icons/mail-open-icon.png" alt="Mail"></a>
     </div>
   </div>
   <div class="small-container">
@@ -30,4 +30,4 @@ layout: default
 </div>
 
 © 2024 - All rights reserved. Schutera.<br>
-[Impressum & Privacy Policy](./impressum-and-privacy-policy.html){:target="\_blank"}
+[Impressum & Privacy Policy](./impressum-and-privacy-policy.html){:target="#"}

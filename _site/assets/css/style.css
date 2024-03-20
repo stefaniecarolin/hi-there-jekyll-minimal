@@ -459,13 +459,10 @@ button.sale {
   border-radius: 4px;
   background-color: #D4AA00;
   transition: background-color 0.3s ease;
-  margin: 10px;
+  margin: 0 20px 20px 0;
   width: 250px;
 }
 button.sale a {
-  color: white;
-}
-button.sale a img {
   color: white;
 }
 
@@ -582,6 +579,9 @@ footer {
   }
   pre, code {
     word-wrap: normal;
+  }
+  .container-person {
+    flex-direction: column;
   }
 }
 @media print, screen and (max-width: 480px) {

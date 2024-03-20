@@ -158,14 +158,11 @@ button.sale {
   border-radius: 4px;
   background-color: #D4AA00;
   transition: background-color 0.3s ease;
-  margin: 10px;
+  margin: 0 20px 20px 0;
   width: 250px;
   a {
     color: white;
-    img  {
-      color: white;
-    }
-    }
+  }
 }
 
 /* Hover-Effekt */
@@ -290,6 +287,11 @@ footer {
     word-wrap:normal;
   }
 
+  .container-person {
+    flex-direction: column; 
+    // flex-direction: column-reverse; // kehrt die Reihenfolge beim stacking um
+  }
+
 }
 
 @media print, screen and (max-width: 480px) {
@@ -304,6 +306,7 @@ footer {
   .downloads li, .downloads li + li + li {
     width:33%;
   }
+
 }
 
 @media print {
