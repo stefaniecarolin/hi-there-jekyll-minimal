@@ -23,7 +23,9 @@ layout: default
     </div>
   </div>
   <div class="small-container">
-    <img src="/assets/img/funny-face.png" alt="Logo" class="funny-face"/>
+    {% if site.funny-face %}
+      <img src="{{site.funny-face | relative_url}}" alt="Avatar" class="funny-face"/>
+    {% endif %}
   </div>
 </div>
 
