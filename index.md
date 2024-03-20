@@ -2,15 +2,10 @@
 layout: default
 ---
 
----
-
-<br>
-
 # Hey there!
 
 <div class="text">
-  I'm a research scientist exploring the world of mathematical modeling and sustainability transitions. Before starting in academia, I used to be a software engineer. From crafting user-friendly interfaces to now crafting sustainable solutions, my journey has been quite a ride!
-  Besides, I've been a yogi for over 10 years and in 2022 I even did a teacher training. I do my best to integrate this mindfulness into everything I do. <br> <br>
+  I'm a research scientist exploring the world of mathematical modeling and sustainability transitions. Before starting in academia, I used to be a software engineer. Besides, I've been a yogi for over 10 years and in 2022 I even did a teacher training. I do my best to integrate this mindfulness into everything I do. <br> <br>
   Let's blend technical skills with creativity and get some exciting projects off the ground together! 
 </div>
 

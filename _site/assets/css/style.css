@@ -327,14 +327,6 @@ h1 {
   font-size: 28px;
 }
 
-h2 {
-  color: #393939;
-}
-
-h3, h4, h5, h6 {
-  color: #494949;
-}
-
 a {
   color: #777;
   text-decoration: none;
@@ -579,6 +571,9 @@ footer {
     position: static;
     width: auto;
     -webkit-font-smoothing: subpixel-antialiased;
+  }
+  .hide-on-small-screens {
+    display: none;
   }
 }
 @media print, screen and (max-width: 600px) {

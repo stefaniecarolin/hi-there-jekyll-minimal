@@ -1,5 +1,5 @@
 ---
-layout: impressum-and-privacy-policy
+layout: subpages
 ---
 
 [back to main page](./)

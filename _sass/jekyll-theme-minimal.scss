@@ -274,6 +274,10 @@ footer {
     -webkit-font-smoothing:subpixel-antialiased;
   }
 
+  .hide-on-small-screens {
+    display: none;
+  }
+
 } 
 
 @media print, screen and (max-width: 600px) {
@@ -285,6 +289,7 @@ footer {
   pre, code {
     word-wrap:normal;
   }
+
 }
 
 @media print, screen and (max-width: 480px) {
