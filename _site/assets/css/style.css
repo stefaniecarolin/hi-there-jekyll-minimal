@@ -303,15 +303,15 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: rgba(212, 170, 0, 0.7411764706);
   padding: 50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #727272;
+  color: #fff;
   font-weight: 400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #222;
+  color: #fff;
   margin: 0 0 20px;
 }
 
@@ -336,12 +336,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color: #267CB9;
+  color: #777;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #069;
+  color: #8f8f8f;
   font-weight: bold;
 }
 
@@ -359,6 +359,10 @@ a:hover small {
 .wrapper {
   width: 860px;
   margin: 0 auto;
+}
+
+.text {
+  font-size: 18px;
 }
 
 blockquote {
@@ -411,6 +415,12 @@ img {
   border-radius: 4px;
 }
 
+.funny-face {
+  width: 133px;
+  border: 2px solid #bf9900;
+  border-radius: 4px;
+}
+
 kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
@@ -427,6 +437,7 @@ kbd {
 
 header {
   width: 270px;
+  padding: 40px 0 0 0;
   position: fixed;
   overflow: auto;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -468,7 +479,7 @@ button.sale a img {
 
 /* Hover-Effekt */
 button.sale:hover {
-  background-color: rgba(212, 170, 0, 0.7411764706);
+  background-color: rgba(248, 199, 1, 0.7411764706);
 }
 
 ul.downloads {
@@ -535,6 +546,7 @@ strong {
 section {
   width: 500px;
   float: right;
+  margin: 40px 0;
 }
 
 small {
@@ -543,8 +555,8 @@ small {
 
 hr {
   border: 0;
-  background: #e5e5e5;
-  height: 1px;
+  background: #bf9900;
+  height: 2px;
   margin: 0 0 20px;
 }
 
@@ -566,7 +578,6 @@ footer {
     float: none;
     position: static;
     width: auto;
-    padding: 0px 0px 60px 0px;
     -webkit-font-smoothing: subpixel-antialiased;
   }
 }
@@ -597,9 +608,10 @@ footer {
   }
 }
 /* Container style */
-.container-author {
-  font-family: Arial, sans-serif;
-  margin: 0;
+.container-person {
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin: 40px 0px;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -622,14 +634,28 @@ footer {
 }
 
 /* Text container style */
-.text-container {
+.big-container {
+  flex-grow: 2;
+  justify-content: center;
+}
+
+.small-container {
   flex-grow: 1;
   justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 /* Name and job description style */
 .name {
-  font-size: 18px;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+.pre-description {
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -642,25 +668,27 @@ footer {
 }
 
 /* Social icons style */
-.social-icons {
+.social-icons-container {
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
 
-.social-icons a {
+.social-icons-container a {
   display: inline-block;
   margin: 0px 3px;
   text-decoration: none;
 }
 
-.social-icons img {
+.social-icons-container img {
   width: 20px; /* Adjust the size of social icons */
   height: 20px;
   opacity: 0.7;
 }
 
-.social-icons a:hover img {
+.social-icons-container a:hover img {
   transform: scale(1.2); /* Adjust the scale factor for the desired hover effect */
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
